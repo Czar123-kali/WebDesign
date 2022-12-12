@@ -82,6 +82,7 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  flex-wrap: wrap-reverse;
 }
 
 .hero-button {
@@ -118,4 +119,17 @@ h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #1e1e1e;
+}
+
+.content-list1,
+.content-list3 {
+  flex-wrap: wrap-reverse;
+}
+
+.content-list2 {
+  flex-wrap: wrap;
+}
+
+.list-text {
+  padding-top: 25px;
 }
