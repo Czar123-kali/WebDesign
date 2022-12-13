@@ -38,14 +38,14 @@ nav > img {
 
 .search-bar-content {
   display: flex;
-  width: 300px;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 400px;
   align-items: center;
 }
 
 .search-bar-content input {
-  height: 20px;
-  width: 80%;
+  width: 300px;
 }
 
 .links-content {
@@ -91,6 +91,10 @@ h1 {
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap-reverse;
+}
+
+.hero-text {
+  margin-top: 30px;
 }
 
 .hero-button {
@@ -196,5 +200,34 @@ h1 {
 @media only screen and (max-width: 850px) {
   .search-bar-content {
     display: none;
+  }
+
+  .hero-text {
+    text-align: center;
+  }
+
+  .hero-body {
+    height: 60vh;
+  }
+}
+
+@media only screen and (max-width: 1350px) {
+  .hero-body {
+    height: 90vh;
+  }
+
+  .content-area {
+    text-align: center;
+    margin-right: 100px;
+    margin-left: 100px;
+  }
+
+  .final-call-section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .list-text {
+    width: 80%;
   }
 }
