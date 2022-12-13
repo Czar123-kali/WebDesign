@@ -84,7 +84,7 @@ h1 {
 }
 
 .hero-content {
-  width: 100%;
+  width: 90vw;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -138,4 +138,11 @@ h1 {
 
 .list-text {
   padding-top: 25px;
+}
+
+/* MEDIA QUERIES */
+@media only screen and (max-width: 850px) {
+  .search-bar-content {
+    display: none;
+  }
 }
