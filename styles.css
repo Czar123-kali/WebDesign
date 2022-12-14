@@ -236,6 +236,8 @@ h1 {
   background-color: #1e1e1e;
   color: #fff;
   font-size: 12px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 .social-icons {
@@ -266,18 +268,13 @@ h1 {
   display: flex;
   align-items: center;
   flex-direction: column;
-  flex-wrap: wrap;
-  width: 30vw;
-  height: 40vh;
+  min-width: 25vw;
+  color: #fff;
+  height: 30vh;
   padding: 50px 50px;
   /* background-color: #707070; */
   background-color: rgba(133, 74, 207, 0.4);
   border-radius: 15px;
-}
-
-.booking-form-content {
-  color: #fff;
-  height: auto;
 }
 
 .booking-form-content div {
@@ -287,6 +284,7 @@ h1 {
 .form-names-div {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -320,7 +318,7 @@ h1 {
   margin-top: 3px;
 }
 
-/* MEDIA QUERIES */
+/* MEDIA QUERIES INDEX PAGE */
 @media only screen and (max-width: 850px) {
   .search-bar-content {
     display: none;
@@ -375,5 +373,14 @@ h1 {
   .list-img {
     width: 320px;
     height: 250px;
+  }
+}
+
+/* MEDIA QUERIES BOOKING PAGE */
+
+@media screen and (max-width: 500px) {
+  .booking-form-container {
+    height: 40vh;
+    width: 300px;
   }
 }
