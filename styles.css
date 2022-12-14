@@ -72,10 +72,30 @@ nav > img {
   justify-content: space-around;
 }
 
+.links-content > a {
+  position: relative;
+  text-align: center;
+}
+
+.links-content > a:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 3px;
+  left: 0;
+  bottom: 8px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.links-content > a:hover:after {
+  width: 100%;
+}
+
 .links-content p {
   color: #fff;
   text-decoration: none;
-  width: 125px;
+  width: fit-content;
 }
 
 /* HERO BODY */
@@ -130,6 +150,7 @@ h1 {
 .hero-button:hover {
   background-color: #fff;
   color: #34b758;
+  transition: 0.1s;
 }
 
 /* LIST SECTIONS */
@@ -202,6 +223,7 @@ h1 {
 .fCall-section-content button:hover {
   background-color: #fff;
   color: #34b758;
+  transition: 0.1s;
 }
 
 /* FOOTER */
