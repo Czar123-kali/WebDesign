@@ -39,29 +39,49 @@
         <section class="booking-form-container" id="booking-container">
           <div class="booking-form-content" id="booking-form-content">
             <form action="#" method="POST">
-              <div>
-                <label for="fName">First Name:</label><br />
-                <input
-                  type="text"
-                  name="fName"
-                  id="fName"
-                  required
-                  maxlength="30"
-                />
-                <label for="lName">Last Name:</label><br />
-                <input
-                  type="text"
-                  name="lName"
-                  id="lName"
-                  required
-                  maxlength="30"
-                />
+              <div class="form-names-div">
+                <div>
+                  <label for="fName">First Name:</label><br />
+                  <input
+                    type="text"
+                    name="fName"
+                    id="fName"
+                    required
+                    maxlength="30"
+                  />
+                </div>
+                <div>
+                  <label for="lName">Last Name:</label><br />
+                  <input
+                    type="text"
+                    name="lName"
+                    id="lName"
+                    required
+                    maxlength="30"
+                  />
+                </div>
               </div>
-              <br />
               <div>
                 <label for="userSchool">What school are you attending?</label
-                ><br /><br />
+                ><br />
                 <input type="text" name="userSchool" id="userSchool" required />
+              </div>
+              <div>
+                <label for="tutorChoice"
+                  >Choose a tutor you'd like to choose:</label
+                >
+                <select name="tutorChoice" id="tutorChoice">
+                  <option value="1">Ahmed</option>
+                  <option value="2">Dennis</option>
+                  <option value="3">Sylvia</option>
+                  <option value="4">Marc</option>
+                  <option value="5">Jeff</option>
+                  <option value="6">Sun Tzu</option>
+                </select>
+              </div>
+              <div class="form-buttons">
+                <input type="submit" value="Book Consultation" />
+                <input type="reset" />
               </div>
             </form>
           </div>
