@@ -270,9 +270,8 @@ h1 {
   flex-direction: column;
   min-width: 25vw;
   color: #fff;
-  height: 26vh;
+  min-height: 300px;
   padding: 50px 50px;
-  /* background-color: #707070; */
   background-color: rgba(133, 74, 207, 0.4);
   border-radius: 15px;
 }
