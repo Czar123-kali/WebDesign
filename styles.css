@@ -249,6 +249,35 @@ h1 {
   padding-left: 5px;
   padding-right: 5px;
 }
+/* BOOKING CONTAINER */
+
+.booking-body {
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+  background: url(images/pexels-pixabay-270348.jpg);
+  background-size: cover;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.booking-form-container {
+  display: flex;
+  justify-content: center;
+  width: 600px;
+  height: 50vh;
+  padding: 75px 50px;
+  /* background-color: #707070; */
+  background-color: rgba(133, 74, 207, 0.4);
+  border-radius: 15px;
+}
+
+.booking-form-content {
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+}
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 850px) {
