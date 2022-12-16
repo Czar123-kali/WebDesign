@@ -522,7 +522,7 @@ h1 {
 
 @media only screen and (max-width: 1350px) {
   .hero-body {
-    height: 90vh;
+    height: 100vh;
   }
 
   .content-area {
