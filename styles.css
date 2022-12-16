@@ -295,7 +295,7 @@ h1 {
   fill: #854acf;
 }
 
-.custom-shape-divider-bottom-1671149155 {
+.lowersvg {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -303,22 +303,23 @@ h1 {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin-bottom: -1px;
 }
 
-.custom-shape-divider-bottom-1671149155 svg {
+.lowersvg svg {
   position: relative;
   display: block;
   width: calc(126% + 1.3px);
   height: 122px;
 }
 
-.custom-shape-divider-bottom-1671149155 .shape-fill {
+.lowersvg .shape-fill {
   fill: #854acf;
 }
 
 /** For mobile devices **/
 @media (max-width: 767px) {
-  .custom-shape-divider-bottom-1671149155 svg {
+  .lowersvg svg {
     width: calc(126% + 1.3px);
     height: 71px;
   }
