@@ -302,8 +302,8 @@ h1 {
 
 .social-icons {
   display: flex;
-  flex-direction: row;
   align-items: center;
+  margin-right: 110px;
 }
 
 .social-icons img {
@@ -441,5 +441,9 @@ h1 {
   .booking-form-container {
     height: 35vh;
     width: 300px;
+  }
+
+  .social-icons {
+    margin-right: 58px;
   }
 }
