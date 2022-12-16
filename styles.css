@@ -175,6 +175,75 @@ h1 {
   color: #34b758;
   transition: 0.1s;
 }
+/* SERVICES SECTION */
+.services-container {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+}
+/* SERVICES SECTION */
+.services-separator {
+  height: 40vh;
+  background-color: #854acf;
+}
+
+.services-container > .title-text {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.services-content {
+  width: 40vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 200px;
+}
+
+.services-content img {
+  width: 150px;
+  height: 150px;
+}
+
+.services-card {
+  text-align: center;
+  padding: 15px 15px;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.services-card:hover {
+  transform: scale(1.05);
+  transition: 0.1s;
+}
+
+#arrowSVG {
+  filter: invert(77%) sepia(69%) saturate(534%) hue-rotate(59deg)
+    brightness(102%) contrast(95%);
+}
+
+#scheduleSVG {
+  filter: invert(66%) sepia(79%) saturate(1324%) hue-rotate(147deg)
+    brightness(101%) contrast(88%);
+}
+
+#dollarsignSVG {
+  filter: invert(50%) sepia(83%) saturate(5067%) hue-rotate(245deg)
+    brightness(84%) contrast(92%);
+}
+
+#homeSVG {
+  filter: invert(77%) sepia(64%) saturate(6126%) hue-rotate(323deg)
+    brightness(92%) contrast(86%);
+}
+
+/*TUTORS SECTION */
 
 /* LIST SECTIONS */
 .content-area-list {
@@ -204,6 +273,28 @@ h1 {
 }
 
 /* SVG */
+
+.custom-shape-divider-bottom-1671163605 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1671163605 svg {
+  position: relative;
+  display: block;
+  width: calc(249% + 1.3px);
+  height: 162px;
+}
+
+.custom-shape-divider-bottom-1671163605 .shape-fill {
+  fill: #854acf;
+}
+
 .custom-shape-divider-bottom-1671149155 {
   position: absolute;
   bottom: 0;
@@ -312,6 +403,16 @@ h1 {
   padding-left: 5px;
   padding-right: 5px;
 }
+
+#facebook-icon {
+  filter: invert(40%) sepia(15%) saturate(2306%) hue-rotate(182deg)
+    brightness(91%) contrast(85%);
+}
+
+#twitter-icon {
+  filter: invert(67%) sepia(42%) saturate(6800%) hue-rotate(176deg)
+    brightness(98%) contrast(93%);
+}
 /* BOOKING CONTAINER */
 
 .booking-body {
@@ -407,6 +508,17 @@ h1 {
   }
 }
 
+@media only screen and (max-width: 900px) {
+  .services-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .services-card {
+    margin-bottom: 20px;
+  }
+}
+
 @media only screen and (max-width: 1350px) {
   .hero-body {
     height: 90vh;
@@ -425,6 +537,14 @@ h1 {
 
   .list-text {
     text-align: center;
+  }
+
+  .services-container {
+    height: 150vh;
+  }
+
+  .services-card {
+    margin-top: 10px;
   }
 }
 
