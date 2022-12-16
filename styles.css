@@ -274,7 +274,7 @@ h1 {
 
 /* SVG */
 
-.custom-shape-divider-bottom-1671163605 {
+.uppersvg {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -284,14 +284,14 @@ h1 {
   transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1671163605 svg {
+.uppersvg svg {
   position: relative;
   display: block;
   width: calc(249% + 1.3px);
   height: 162px;
 }
 
-.custom-shape-divider-bottom-1671163605 .shape-fill {
+.uppersvg .shape-fill {
   fill: #854acf;
 }
 
@@ -567,5 +567,11 @@ h1 {
   .booking-form-container {
     height: 43vh;
     width: 300px;
+  }
+}
+
+@media only screen and (max-width: 1900px) {
+  .services-card {
+    margin-bottom: 20px;
   }
 }
