@@ -194,7 +194,7 @@ h1 {
 
 .services-container > .title-text {
   text-align: center;
-  margin-bottom: 100px;
+  margin-bottom: 50px;
 }
 
 .services-content {
@@ -246,11 +246,17 @@ h1 {
 /*TUTORS SECTION */
 
 /* LIST SECTIONS */
+
 .content-area-list {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  padding: 30px 0;
+  width: 60vw;
 }
 
 .list-img {
@@ -265,6 +271,9 @@ h1 {
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   color: #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .lists {
@@ -282,6 +291,7 @@ h1 {
   overflow: hidden;
   line-height: 0;
   transform: rotate(180deg);
+  margin: -1px;
 }
 
 .uppersvg svg {
@@ -507,6 +517,10 @@ h1 {
     padding-left: 5%;
     padding-right: 5%;
   }
+
+  .content-area-list {
+    width: 90vw;
+  }
 }
 
 @media only screen and (max-width: 900px) {
@@ -541,7 +555,7 @@ h1 {
   }
 
   .services-container {
-    height: 150vh;
+    height: 230vh;
   }
 
   .services-card {
@@ -573,5 +587,22 @@ h1 {
 @media only screen and (max-width: 1900px) {
   .services-card {
     margin-bottom: 20px;
+  }
+}
+
+@media (orientation: landscape) and (max-width: 800px) {
+  .services-content {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 80vw;
+  }
+
+  .services-container {
+    height: 250vh;
+  }
+
+  .title-text {
+    margin: 0;
   }
 }
