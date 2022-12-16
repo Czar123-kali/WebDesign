@@ -245,6 +245,17 @@ h1 {
 
 /* TUTORS SECTION */
 
+.tutor-container {
+  height: 120vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+}
+
 /* CONTACT US SECTION */
 
 /* LIST SECTIONS */
@@ -327,6 +338,71 @@ h1 {
 }
 
 .lowersvg .shape-fill {
+  fill: #854acf;
+}
+
+.tutor-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.tutor-svg svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 147px;
+  transform: rotateY(180deg);
+}
+
+.tutor-svg .shape-fill {
+  fill: #854acf;
+}
+
+.upper-services-svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.upper-services-svg svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 69px;
+  margin: -1px;
+}
+
+.upper-services-svg .shape-fill {
+  fill: #854acf;
+}
+
+.lower-services-svg {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+  margin: -1px;
+}
+
+.lower-services-svg svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 147px;
+  transform: rotateY(180deg);
+}
+
+.lower-services-svg .shape-fill {
   fill: #854acf;
 }
 
