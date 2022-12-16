@@ -369,14 +369,14 @@ h1 {
   width: 100%;
   overflow: hidden;
   line-height: 0;
+  margin: -1px;
 }
 
 .upper-services-svg svg {
   position: relative;
   display: block;
   width: calc(100% + 1.3px);
-  height: 69px;
-  margin: -1px;
+  height: 81px;
 }
 
 .upper-services-svg .shape-fill {
