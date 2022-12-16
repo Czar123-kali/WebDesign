@@ -276,6 +276,7 @@ h1 {
 .tutors-content img {
   max-width: 250px;
   max-height: 250px;
+  border-radius: 20px;
 }
 
 .tutors-card {
