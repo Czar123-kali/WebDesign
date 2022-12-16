@@ -434,17 +434,17 @@ h1 {
     width: 320px;
     height: 250px;
   }
+
+  .social-icons {
+    margin-right: 58px;
+  }
 }
 
 /* MEDIA QUERIES BOOKING PAGE */
 
 @media screen and (max-width: 500px) {
   .booking-form-container {
-    height: 35vh;
+    height: 43vh;
     width: 300px;
-  }
-
-  .social-icons {
-    margin-right: 58px;
   }
 }
