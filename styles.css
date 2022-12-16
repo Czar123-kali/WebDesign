@@ -243,7 +243,9 @@ h1 {
     brightness(92%) contrast(86%);
 }
 
-/*TUTORS SECTION */
+/* TUTORS SECTION */
+
+/* CONTACT US SECTION */
 
 /* LIST SECTIONS */
 
@@ -262,6 +264,7 @@ h1 {
 .list-img {
   width: 450px;
   height: 250px;
+  border-radius: 10px;
 }
 
 .list1,
